@@ -3,7 +3,7 @@ module github.com/redhat-appstudio/managed-gitops/backend
 go 1.16
 
 require (
-	github.com/emicklei/go-restful/v3 v3.7.1
+	github.com/emicklei/go-restful/v3 v3.7.3
 	github.com/go-logr/logr v0.4.0
 	github.com/google/go-github v17.0.0+incompatible
 	github.com/google/go-querystring v1.1.0 // indirect
