@@ -13,8 +13,6 @@ updates:
       day: "sunday"
       timezone: Europe/Berlin
       time: "08:00"
-    # Allow up to 10 open pull requests for GitHub dependencies
-    open-pull-requests-limit: 10
     commit-message:
       prefix: "🔼:"
       prefix-development: "🔼"
@@ -29,7 +27,6 @@ updates:
       day: "sunday"
       timezone: Europe/Berlin
       time: "08:00"
-      open-pull-requests-limit: 10
       commit-message:
         prefix: "🔼:"
       labels:
@@ -43,9 +40,6 @@ updates:
       day: "sunday"
       timezone: Europe/Berlin
       time: "08:00"
-      assignees:
-        - "drpaneas"
-      open-pull-requests-limit: 10
       commit-message:
         prefix: "🔼:"
       labels:
@@ -59,7 +53,6 @@ updates:
       day: "sunday"
       timezone: Europe/Berlin
       time: "08:00"
-      open-pull-requests-limit: 10
       commit-message:
         prefix: "🔼:"
       labels:
@@ -73,7 +66,6 @@ updates:
       day: "sunday"
       timezone: Europe/Berlin
       time: "08:00"
-      open-pull-requests-limit: 10
       commit-message:
         prefix: "🔼:"
       labels:
