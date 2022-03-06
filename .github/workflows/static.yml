@@ -13,7 +13,7 @@ jobs:
     name: Ensure that code is gofmt-ed
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v3
       - name: "Ensure 'backend' is 'go fmt'-ed - run 'make fmt' to fix"
         uses: grandcolline/golang-github-actions@v1.1.0
         with:
@@ -37,7 +37,7 @@ jobs:
     name: Ensure that code passes gosec and golint
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v3
       - name: Setup Golang
         uses: actions/setup-go@v2
         with:
@@ -78,7 +78,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Setup Golang
         uses: actions/setup-go@v2
         with:
@@ -119,7 +119,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Setup Golang
         uses: actions/setup-go@v2
         with:
